@@ -77,7 +77,7 @@ The directory structure for the two images is as below:
     - ![PlotB_0](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartB/Image%200/PlotB_TimeTaken_vs_i_image0.jpeg)
   - Image 1
     - PlotB_TimeTaken_vs_i_image1.jpeg
-    - ![PlotB_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartB/Image%200/PlotB_TimeTaken_vs_i_image1.jpeg)
+    - ![PlotB_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartB/Image%201/PlotB_TimeTaken_vs_i_image1.jpeg)
     
 It can be observed from both of the plots that the computation time rises exponentially as number of output channels is increased (_the number of output channels also rises exponentially, 2^i_).
 
@@ -95,8 +95,8 @@ The directory structure for the two images is as below:
     - ![PlotC_0](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartC/Image%200/PlotC_NumOps_vs_kernelsize_image0.jpeg)
   - Image 1
     - PlotC_NumOps_vs_kernelsize_image1.jpeg
-    - ![PlotC_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartC/Image%200/PlotC_NumOps_vs_kernelsize_image1.jpeg)
-    
+    - ![PlotC_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartC/Image%201/PlotC_NumOps_vs_kernelsize_image1.jpeg)
+
 It can be observed from both of the plots that the number of operation rises almost linearly as kernel size increaes (by 2).
 
 ## Running the tests in C
@@ -116,10 +116,10 @@ The directory structure for the two images is as below:
 - results_PartD
   - Image 0
     - PlotD_TimeTaken_vs_i_image0.jpeg
-    - (https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartD/Image0/PlotD_TimeTaken_vs_i_image0.jpeg)
+    - ![PlotD_0](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartD/Image0/PlotD_TimeTaken_vs_i_image0.jpeg)
   - Image 1
     - PlotD_TimeTaken_vs_i_image1.jpeg
-    - (https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartD/Image0/PlotD_TimeTaken_vs_i_image1.jpeg)
+    - ![PlotD_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartD/Image1/PlotD_TimeTaken_vs_i_image1.jpeg)
     
 It can be observed from both of the plots that the computation time rises exponentially as number of output channels is increased (_the number of output channels also rises exponentially, 2^i_).
 

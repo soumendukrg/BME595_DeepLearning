@@ -1,22 +1,23 @@
--------------------------IMAGE 0 (torch.Size([3, 720, 1280]))--------------------------
+# RESULTS OF PART A
 
+**Image Name**: [img0.jpg](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/img0.jpg)
 
----------------------PART A------------------------
+**Size of Image (WxHxC)**: 1280 x 720 x 3
 
-The total number of operations (multiplications and additions) for Task1 for Image No 0 is 48633012
+Task Number | Number of Operations 
+---------- | ------------- 
+ 1 | 48633012 
+ 2| 272257568
+ 3| 36474759
+ 
+ 
+**Image Name**: [img1.jpg](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/img1.jpg)
 
-The total number of operations (multiplications and additions for Task2 for Image No 0 is 272257568
+**Size of Image (WxHxC)**: 1920 x 1080 x 3
+                          
 
-The total number of operations (multiplications and additions for Task3 for Image No 0 is 36474759
-
-
--------------------------IMAGE 1 (torch.Size([3, 1080, 1920]))--------------------------
-
-
----------------------PART A------------------------
-
-The total number of operations (multiplications and additions) for Task1 for Image No 1 is 109583012
-
-The total number of operations (multiplications and additions for Task2 for Image No 1 is 614361568
-
-The total number of operations (multiplications and additions for Task3 for Image No 1 is 82187259
+Task Number | Number of Operations 
+---------- | ------------- 
+ 1 | 109583012 
+ 2| 614361568
+ 3| 82187259

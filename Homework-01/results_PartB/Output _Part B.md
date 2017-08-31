@@ -1,5 +1,10 @@
-
 # RESULTS OF PART B
+
+Parameters
+  - No of input channels = 3
+  - Kernel size = 3
+  - Mode = 'rand' (randomly generated kernel used)
+  - Stride = 1
 
 **Image Name**: [img0.jpg](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/img0.jpg)
 

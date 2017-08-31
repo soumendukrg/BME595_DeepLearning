@@ -1,20 +1,31 @@
--------------------------IMAGE 0 (torch.Size([3, 720, 1280]))--------------------------
+# RESULTS OF PART C
 
-------------------Part C--------------------
+Parameters
+  - No of input channels = 3
+  - No of output channels = 2
+  - Mode = 'rand' (randomly generated kernel used)
+  - Stride = 1
 
-i = 0, o_channel = 2, kernel_size = 3, number_of_operations = 97266024.0
-i = 1, o_channel = 2, kernel_size = 5, number_of_operations = 272257568.0
-i = 2, o_channel = 2, kernel_size = 7, number_of_operations = 533046696.0
-i = 3, o_channel = 2, kernel_size = 9, number_of_operations = 878494080.0
-i = 4, o_channel = 2, kernel_size = 11, number_of_operations = 1307465000.0
+**Image Name**: [img0.jpg](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/img0.jpg)
 
--------------------------IMAGE 1 (torch.Size([3, 1080, 1920]))--------------------------
+**Size of Image (WxHxC)**: 1280 x 720 x 3
 
-------------------Part C--------------------
+Kernel Size | Number of Operations
+---------- | ------------- 
+3 | 97266024
+5 | 272257568
+7 | 533046696
+9 | 878494080
+11 | 1307465000
+  
+**Image Name**: [img1.jpg](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/img1.jpg)
 
-i = 0, o_channel = 2, kernel_size = 3, number_of_operations = 219166024.0
-i = 1, o_channel = 2, kernel_size = 5, number_of_operations = 614361568.0
-i = 2, o_channel = 2, kernel_size = 7, number_of_operations = 1204602696.0
-i = 3, o_channel = 2, kernel_size = 9, number_of_operations = 1988174080.0
-i = 4, o_channel = 2, kernel_size = 11, number_of_operations = 2963365000.0
+**Size of Image (WxHxC)**: 1920 x 1080 x 3
 
+Kernel Size | Number of Operations
+---------- | ------------- 
+3 | 219166024
+5 | 614361568
+7 | 1204602696
+9 | 1988174080
+11 | 2963365000

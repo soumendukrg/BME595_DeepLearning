@@ -26,7 +26,7 @@ The results of different parts of the howework are described in this file.
   - Image 1 (https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/img1.jpg)
   - The test images are transformed from PIL.Image format to torch.FloatTensor format.
   - Code for Part A through C are present in this file. Please note that **either Part B or Part C can be run at a time**. Please comment out code section for Part C when you want to run Part B and viceversa. Part A has no such limitations.
-  - A `for` loop has been used to run all the computations for all the images in one pass of the program. If you want to use other images than those provided, you can either replace the argument of image read instructions or you can also append newly read images into the tensor `input_img_tensor`. Make sure to transform yours images to torch.FloatTensor before using. The variable `num_images` is used for looping through the images.
+  - A _for_ loop has been used to run all the computations for all the images in one pass of the program. If you want to use other images than those provided, you can either replace the argument of image read instructions or you can also append newly read images into the tensor `input_img_tensor`. Make sure to transform yours images to torch.FloatTensor before using. The variable `num_images` is used for looping through the images.
 
 ### C
 
@@ -72,8 +72,10 @@ The directory structure for the two images is as below:
 - results_PartB
   - Image 0
     - PlotB_TimeTaken_vs_i_image0.jpeg
+    - (https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartB/Image%200/PlotB_TimeTaken_vs_i_image0.jpeg)
   - Image 1
     - PlotB_TimeTaken_vs_i_image1.jpeg
+    - https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartB/Image%200/PlotB_TimeTaken_vs_i_image1.jpeg
     
 It can be observed from both of the plots that the computation time rises exponentially as number of output channels is increased (_the number of output channels also rises exponentially, 2^i_).
 
@@ -88,8 +90,10 @@ The directory structure for the two images is as below:
 - results_PartC
   - Image 0
     - PlotC_NumOps_vs_kernelsize_image0.jpeg
+    - (https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartC/Image%200/PlotC_NumOps_vs_kernelsize_image0.jpeg)
   - Image 1
     - PlotC_NumOps_vs_kernelsize_image1.jpeg
+    - (https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartC/Image%200/PlotC_NumOps_vs_kernelsize_image0.jpeg)
     
 It can be observed from both of the plots that the number of operation rises almost linearly as kernel size increaes (by 2).
 
@@ -110,8 +114,10 @@ The directory structure for the two images is as below:
 - results_PartD
   - Image 0
     - PlotD_TimeTaken_vs_i_image0.jpeg
+    - (https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartD/Image0/PlotD_TimeTaken_vs_i_image0.jpeg)
   - Image 1
     - PlotD_TimeTaken_vs_i_image1.jpeg
+    - (https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartD/Image0/PlotD_TimeTaken_vs_i_image1.jpeg)
     
 It can be observed from both of the plots that the computation time rises exponentially as number of output channels is increased (_the number of output channels also rises exponentially, 2^i_).
 

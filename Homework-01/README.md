@@ -21,7 +21,7 @@ The results of different parts of the howework are described in this file.
   - An additional function called `normalize(img_no,output_img_array)` has been defined in *conv.py* for normalizing and saving the output image. The output image tensor (type: _3D FloatTensor_) is converted in *main.py* to a numpy array and then passed as the argument of the normalize function. Each channel of the output image array is saved as a separate grayscale image in the function.
 
 #### Details about *main.py*
-  - Both the test images are read. _img0.jpg_ (1280x720) and _img1.jpg_ (1980x1080) are the two corresponding test images in the assignment folder.
+  - Both the test images are read. _img0.jpg_ (1280x720) and _img1.jpg_ (1920x1080) are the two corresponding test images in the assignment folder.
   - Image 0
 ![Image0](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/img0.jpg)
   - Image 1

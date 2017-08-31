@@ -9,9 +9,9 @@
 The results of different parts of the howework are described in this file.
 
 ##### Platform and Packages used:
-Anaconda 4.3.25, Python 3.6.2, Pytorch, Torchvision (All updated)
-Machine: Intel core i7 (4 cores), 16GB RAM
-OS: Ubuntu 14.04 in Virtual Box with 8 GB RAM and 2 cores allocated, 20GB Virtual Disk.
+- Anaconda 4.3.25, Python 3.6.2, Pytorch, Torchvision (All updated)
+- Machine: Intel core i7 (4 cores), 16GB RAM
+- OS: Ubuntu 14.04 in Virtual Box with 8 GB RAM and 2 cores allocated, 20GB Virtual Disk.
 
 ## **API**
 

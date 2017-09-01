@@ -22,10 +22,14 @@ The results of different parts of the howework are described in this file.
 
 #### Details about *main.py*
   - Both the test images are read. _img0.jpg_ (1280x720) and _img1.jpg_ (1920x1080) are the two corresponding test images in the assignment folder.
-  - Image 0
-![Image0](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/img0.jpg)
-  - Image 1
-![Image1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/img1.jpg)
+  
+|![Image0](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/img0.jpg)|
+|:--:| 
+| *Image 0* |
+
+|![Image1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/img1.jpg)|
+|:--:| 
+| *Image 1* |
   - The test images are transformed from PIL.Image format to torch.FloatTensor format.
   - Code for Part A through C are present in this file. Please note that **either Part B or Part C can be run at a time**. Please comment out code section for Part C when you want to run Part B and viceversa. Part A has no such limitations.
   - A _for_ loop has been used to run all the computations for all the images in one pass of the program. If you want to use other images than those provided, you can either replace the argument of image read instructions or you can also append newly read images into the tensor `input_img_tensor`. Make sure to transform yours images to torch.FloatTensor before using. The variable `num_images` is used for looping through the images.
@@ -59,12 +63,67 @@ The directory structure for the 12 output images for the two images is as below:
 - results_PartA
   - Image 0
     - 6 Output Images (all images are named with task no and kernel no used).
-    - TASK 1: As evident from the output images, kernel k1 gives the horizontal edge detector, hence the horizontal edges are detected in the output image for task 1. Before the convolution operation, output image tensor of size equal to input image tensor size has been initialized with all zeros. Hence, the final output image size is same as input image sizse after the convolution. The convolution operation modifies the values of output tensor from `row = roi_offset to img_height-roi_offset` and `column = roi_offset to img_width-roi_offset` where roi_offset = 1 as kernel size = 2. 
+    - TASK 1: As evident from the output images, kernel k1 gives the horizontal edge detector, hence the horizontal edges are detected in the output image for task 1. Before the convolution operation, output image tensor of size equal to input image tensor size has been initialized with all zeros. Hence, the final output image size is same as input image sizse after the convolution. The convolution operation modifies the values of output tensor from `row = roi_offset to img_height-roi_offset` and `column = roi_offset to img_width-roi_offset` where roi_offset = 1 as kernel size = 2.
+    
+    |![Task1_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%200/out_0_task_1_k1.jpg)|
+    |:--:| 
+    | *Horizontal Edge Detector Output Image for Task 1, output_channels=1, kernel_size=3 (K1), stride=1* |
+    
     - TASK 2: Kernel k4 and k5 gives horizontal and vertical edge detector respectively. However, as kernel size has increased, the sharpness of the output images for task 2 has decreased with respect to task 1. Basically, the edges in the image becomes thicker.
+    
+    |![Task2_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%200/out_0_task_2_k4.jpg)|
+    |:--:| 
+    | *Horizontal Edge Detector Output Image for Task 2, 1st output_channel, kernel_size=5 (K4), stride=1* |
+    
+    |![Task2_2](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%200/out_0_task_2_k5.jpg)|
+    |:--:| 
+    | *Vertical Edge Detector Output Image for Task 2, 2nd output_channel, kernel_size=5 (K5), stride=1* |
+    
     - TASK 3: K1, K2, and K3 are used here. As the stride = 2 in this task, the size of the output image reduces in both the dimensions by a factor of 2. K1 gives horizontal edge detector, K2 is vertical edge detector and K3 is smoothing filter/averaging filter.
     
+    |![Task3_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%200/out_0_task_3_k1.jpg)|
+    |:--:| 
+    | *Horizontal Edge Detector Output Image for Task 3, 1st output_channel, kernel_size=3 (K1), stride=2* |
+    
+    |![Task3_2](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%200/out_0_task_3_k2.jpg)|
+    |:--:| 
+    | *Vertical Edge Detector Output Image for Task 3, 2nd output_channel, kernel_size=3 (K2), stride=2* |
+    
+    |![Task3_3](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%200/out_0_task_3_k3.jpg)|
+    |:--:| 
+    | *Smoothing Filter Output Image for Task 3, 3rd output_channel, kernel_size=3 (K3), stride=2* |
+    
   - Image 1
-    - Same as above
+    - Discussions same as above
+    - Task 1
+    
+    |![Task1_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%201/out_1_task_1_k1.jpg)|
+    |:--:| 
+    | *Horizontal Edge Detector Output Image for Task 1, output_channels=1, kernel_size=3 (K1), stride=1* |
+    
+    -Task 2
+    
+    |![Task2_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%201/out_1_task_2_k4.jpg)|
+    |:--:| 
+    | *Horizontal Edge Detector Output Image for Task 2, 1st output_channel, kernel_size=5 (K4), stride=1* |
+    
+    |![Task2_2](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%201/out_1_task_2_k5.jpg)|
+    |:--:| 
+    | *Vertical Edge Detector Output Image for Task 2, 2nd output_channel, kernel_size=5 (K5), stride=1* |
+    
+    - Task 3
+    
+    |![Task3_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%201/out_1_task_3_k1.jpg)|
+    |:--:| 
+    | *Horizontal Edge Detector Output Image for Task 3, 1st output_channel, kernel_size=3 (K1), stride=2* |
+        
+    |![Task3_2](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%201/out_1_task_3_k2.jpg)|
+    |:--:| 
+    | *Vertical Edge Detector Output Image for Task 3, 2nd output_channel, kernel_size=3 (K2), stride=2* |    
+    
+    |![Task3_3](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%201/out_1_task_3_k3.jpg)|
+    |:--:| 
+    | *Smoothing Filter Output Image for Task 3, 3rd output_channel, kernel_size=3 (K3), stride=2* |
 
 ### PART B
 

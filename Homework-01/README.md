@@ -59,7 +59,7 @@ $ python main.py
 
 ### PART A
  
-The directory structure for the 12 output images for the two iimages is as below:
+The directory structure for the 12 output images for the two input images is as below:
 - results_PartA
   - Image 0
     - 6 Output Images (all images are named with task no and kernel no used).
@@ -101,7 +101,7 @@ The directory structure for the 12 output images for the two iimages is as below
     |:--:| 
     | *Horizontal Edge Detector Output Image for Task 1, output_channels=1, kernel_size=3 (K1), stride=1* |
     
-    -Task 2
+    - Task 2
     
     |![Task2_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%201/out_1_task_2_k4.jpg)|
     |:--:| 
@@ -117,7 +117,7 @@ The directory structure for the 12 output images for the two iimages is as below
     |:--:| 
     | *Horizontal Edge Detector Output Image for Task 3, 1st output_channel, kernel_size=3 (K1), stride=2* |
         
-    |![Task3_2](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%201/out_1_task_3_k2.jpg)|
+    |![Task3_2](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartA/Image%201/out_1_task_3_k2.jpg)
     |:--:| 
     | *Vertical Edge Detector Output Image for Task 3, 2nd output_channel, kernel_size=3 (K2), stride=2* |    
     
@@ -132,15 +132,20 @@ In this part, the number of output channels is varied as 2^i (i=0,1,2,...,10). S
 The directory structure for the two images is as below:
 - results_PartB
   - Image 0
-    - PlotB_TimeTaken_vs_i_image0.jpeg
-    - ![PlotB_0](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartB/Image%200/PlotB_TimeTaken_vs_i_image0.jpeg)
+  
+  |![PlotB_0](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartB/Image%200/PlotB_TimeTaken_vs_i_image0.jpeg)|
+  |:--:|
+  |*PlotB_TimeTaken_vs_i_image0.jpeg*|
+    
   - Image 1
-    - PlotB_TimeTaken_vs_i_image1.jpeg
-    - ![PlotB_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartB/Image%201/PlotB_TimeTaken_vs_i_image1.jpeg)
+  
+  |![PlotB_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartB/Image%201/PlotB_TimeTaken_vs_i_image1.jpeg)|
+  |:--:|
+  |*PlotB_TimeTaken_vs_i_image1.jpeg*|
     
 It can be observed from both of the plots that the computation time rises exponentially as number of output channels is increased (_the number of output channels also rises exponentially, 2^i_).
 
-###### NOTE for Part B:
+##### **NOTE for Part B**:
 The system was taking longer than one hour for no of output channels = 1024 for the smaller image (image 0) and for no of output channels = 512 and 1024 for the larger image(image 1). Computation time for these values were found out by extrapolation using polynomial fitting, and plotted subsequently along with previously obtained values. 
 
 ### PART C
@@ -150,18 +155,22 @@ In this part, the number of output channels was 2 but the kernel size was (3,5,7
 The directory structure for the two images is as below:
 - results_PartC
   - Image 0
-    - PlotC_NumOps_vs_kernelsize_image0.jpeg
-    - ![PlotC_0](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartC/Image%200/PlotC_NumOps_vs_kernelsize_image0.jpeg)
+  
+  |![PlotC_0](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartC/Image%200/PlotC_NumOps_vs_kernelsize_image0.jpeg)|
+  |:--:|
+  |*PlotC_NumOps_vs_kernelsize_image0.jpeg*|
+    
   - Image 1
-    - PlotC_NumOps_vs_kernelsize_image1.jpeg
-    - ![PlotC_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartC/Image%201/PlotC_NumOps_vs_kernelsize_image1.jpeg)
+  
+  |![PlotC_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartC/Image%201/PlotC_NumOps_vs_kernelsize_image1.jpeg)|
+  |:--:|
+  | *PlotC_NumOps_vs_kernelsize_image1.jpeg* |
 
 It can be observed from both of the plots that the number of operation rises almost linearly as kernel size increaes (by 2).
 
 ## Running the tests in C
 
 Run the following code (without $ sign) in the terminal for Part D
-
 ```
 $ gcc main.c -lm -o main.out
 $ ./main.out
@@ -174,13 +183,18 @@ As mentioned earlier, input image array was generated with random values in rang
 The directory structure for the two images is as below:
 - results_PartD
   - Image 0
-    - PlotD_TimeTaken_vs_i_image0.jpeg
-    - ![PlotD_0](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartD/Image0/PlotD_TimeTaken_vs_i_image0.jpeg)
+  
+    |![PlotD_0](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartD/Image0/PlotD_TimeTaken_vs_i_image0.jpeg)|
+    |:--:|
+    |*PlotD_TimeTaken_vs_i_image0.jpeg*||
+    
   - Image 1
-    - PlotD_TimeTaken_vs_i_image1.jpeg
-    - ![PlotD_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartD/Image1/PlotD_TimeTaken_vs_i_image1.jpeg)
+  
+    |![PlotD_1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/results_PartD/Image1/PlotD_TimeTaken_vs_i_image1.jpeg)|
+    |:--:|
+    |*PlotD_TimeTaken_vs_i_image1.jpeg*|
     
 It can be observed from both of the plots that the computation time rises exponentially as number of output channels is increased (_the number of output channels also rises exponentially, 2^i_).
 
-###### NOTE for Part D:
+##### **NOTE for Part D**:
 In case of the larger image (1920x1080x3), the program was killed by the OS after number of output channels increased to 1024. This happened because of lack of virtual memory, as I am using virtual box. The last value for this were extrapolated as before.

@@ -3,23 +3,22 @@
 ### **Soumendu Kumar Ghosh**
 
 
-# **HOMEWORK-01:** 
-*Implementation of 2D Convolution*
+# **HOMEWORK-01:** *Implementation of 2D Convolution*
 
 The results of different parts of the howework are described in this file.
 
 ##### Platform and Packages used:
-- Anaconda 4.3.25, Python 3.6.2, Pytorch, Torchvision (All updated)
-- Machine: Intel core i7 (4 cores), 16GB RAM
-- OS: Ubuntu 14.04 in Virtual Box with 8 GB RAM and 2 cores allocated, 20GB Virtual Disk.
+- **Anaconda** 4.3.25, **Python** 3.6.2, **Pytorch** 0.1.12, **Torchvision** 0.1.8
+- Machine: **Intel core i7** (4 cores), **16GB RAM**
+- OS: **Ubuntu 14.04** in Virtual Box with 8 GB RAM and 2 cores allocated, 20GB Virtual Disk.
 
 ## **API**
 
 ### Python
-  - The class Conv2D is defined in the file *conv.py*.
+  - The class **Conv2D** is defined in the file *conv.py*.
   - The `__init__()` and the `forward()` functions have been defined in the same.
   - An additional function called `normalize(img_no,output_img_array)` has been defined in *conv.py* for normalizing and saving the output image. The output image tensor (type: _3D FloatTensor_) is converted in *main.py* to a numpy array and then passed as the argument of the normalize function. Each channel of the output image array is saved as a separate grayscale image in the function.
-
+  
 #### Details about *main.py*
   - Both the test images are read. _img0.jpg_ (1280x720) and _img1.jpg_ (1920x1080) are the two corresponding test images in the assignment folder.
   
@@ -30,8 +29,9 @@ The results of different parts of the howework are described in this file.
 |![Image1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-01/img1.jpg)|
 |:--:| 
 | *Image 1* |
-  - The test images are transformed from PIL.Image format to torch.FloatTensor format.
-  - Code for Part A through C are present in this file. Please note that **either Part B or Part C can be run at a time**. Please comment out code section for Part C when you want to run Part B and viceversa. Part A has no such limitations.
+
+  - The test images are transformed from **PIL.Image** format to **torch.FloatTensor** format.
+  - Code for Part A through C are present in this file. Please note that **either Part B or Part C can be run at a time (single instance of the program)**. Please comment out code section for Part C when you want to run Part B and viceversa. Part A has no such limitations.
   - A _for_ loop has been used to run all the computations for all the images in one pass of the program. If you want to use other images than those provided, you can either replace the argument of image read instructions or you can also append newly read images into the tensor `input_img_tensor`. Make sure to transform yours images to torch.FloatTensor before using. The variable `num_images` is used for looping through the images.
 
 ### C
@@ -43,7 +43,7 @@ The results of different parts of the howework are described in this file.
   ```python
   long double c_conv(int in_channel, long int o_channel, int kernel_size, int stride, float ***input_image);
   ```
-  - 3D array was created with random values between 0 to 255 to replicate images with dimensions 1280x780x3 and 1980x720x3 in two different execution instances of the program. The submitted code has the size as 1280x720x3. Change the variables *rows* and *columns* in both the main function and the c_conv function to try other image dimensions.
+  - 3D array was created with random values between 0 to 255 to replicate images with dimensions 1280x780x3 and 1920x1080x3 in two different execution instances of the program. The submitted code has the size as 1280x720x3. Change the variables *rows* and *columns* in both the main function and the c_conv function to try other image dimensions.
   - A new argument `float ***input_image` was added in the c_conv function as the image array was created in the main function. The pointer to the array was passed as the argument.
   - Kernel of size=3x3x3 was created in c_conv and used for all output channels (2^i).
   
@@ -59,7 +59,7 @@ $ python main.py
 
 ### PART A
  
-The directory structure for the 12 output images for the two images is as below:
+The directory structure for the 12 output images for the two iimages is as below:
 - results_PartA
   - Image 0
     - 6 Output Images (all images are named with task no and kernel no used).

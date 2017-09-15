@@ -24,7 +24,7 @@ In this assignment, we create a full fledged neural network which implements fee
  - The `build(([int] in, [int] h1, [int] h2, …, [int] out))` method initializes the network with input, hidden and output layers. It also initializes random *thetas* from a normal distribution (0 mean, 1/sqrt(layer_size) standard deviation). Additional dictionaries dE_dTheta, a, z have been created.
  - The `getLayer([int] layer)` method returns theta(layer)
  - The `forward([1D/2D FloatTensor] input)` method performs feed forward pass, computes the final output of the network using the inputs and initialized thetas.
- - The `backward([1D/2D FloatTensor] target, [string] loss)` method performs the back propagation pass to calculate dE_dTheta for different layers starting from the last layers and propagating towards the input layer.
+ - The `backward([1D/2D FloatTensor] target, [string] loss)` method performs the back propagation pass to calculate dE_dTheta for different layers starting from the last layer and propagating towards the input layer.
    - **BONUS**: Two different cost functions have been used in this method: *Mean Square Error(MSE)* and *Cross Entropy(CE) (Softmax + Negative Log Likelihood)*. The backward method can be called with either one of them from the `logic_gates.py` by passing argument `MSE` or `CE`.
  - The `updateParams([float] eta)` method performs the gradient descent method to update Theta using dE_dTheta computed in the `backward` method.
  
@@ -32,9 +32,9 @@ In this assignment, we create a full fledged neural network which implements fee
 ### Classes: AND, OR, NOT, XOR
 - The file *logic_gates.py* implements these classes.
 - The NeuralNetwork API is used to create 4 different networks implementing the gates **AND, OR, NOT, XOR**.
-- Each class implements two main methods, viz. `train` and `forward` apart from `__init__` and `__call__`
+- Each class implements two public methods, viz. `train` and `forward` apart from the default methods `__init__` and `__call__`
   - For training, several iterarions/epochs are run in the `train()` method until the total loss of the network goes below 0.01 (this is the stopping criterion).
-  - In each iteration, the `train` method creates *input data (training data)* on the fly using different permutations of the base dataset `[[0,0], [0,1], [1,0], [1,1]]` and also creates the corresponding target output. Then it calls these methods from the NeuralNetwork class: `forward(train_data)`, `backward(target, loss)`, and `updateParams(eta)` and then goes to the next iteration.
+  - In each iteration, the `train` method creates *input data (training data)* on the fly using different permutations of the base dataset `[[0,0], [0,1], [1,0], [1,1]]` and also creates the corresponding target output using Python's and, or, not and combination of these three for AND, OR, NOT, XOR gate respectively. Then it calls these methods from the NeuralNetwork class: `forward(train_data)`, `backward(target, loss)`, and `updateParams(eta)` and then goes to the next iteration.
   - The `forward([boolean]x, [boolean]y)` function of the logic gate is used to find output of the network after it has completed training.
   - `getLayer(layer)` was used inside the `train` method to find trained weights to be used for comparison later on.
   
@@ -45,7 +45,7 @@ A **test.py** file has been additionally provided to show that the network is tr
 $ python test.py
 ```
 The test file basically performs the following set of codes. Only a single gate has been shown here as an example.
-```
+```(python)
 from logic_gates import AND
 And = AND()  # creating instance of the neural network class
 And.train()  # train the network to represent AND gate functionality
@@ -86,8 +86,9 @@ Similar to the last two gates, sign of the elements and ratio of pair of element
 |Theta(0) = [[-50,  60, -60], [-50, -60,  60]] | Theta(0) = [[-4.5425,  2.9612,  2.9612], [1.5967, -5.2660, -5.2658]]|
 |Theta(1) = [-50, 60,  60] | Theta(1) = [2.9498, -5.8073, -6.0882]|
 
-Here, it is observed that the signs and ratios elements of thetas are different. However, the overall gate functionality resembles XOR. Actually the network resembeles an ```(NOR(XY, X`Y`))``` which upon simplification gives XOR. Here is the proof:
-Note: NOT is represented by **`**, AND by **.** and OR by **+**.
+Here, it is observed that the signs and ratios of the elements of thetas are different. However, the overall gate functionality resembles XOR. Actually the network resembeles an ```(NOR(XY, X`Y`))``` which upon simplification gives XOR. Here is the proof:
+
+**Note**: NOT is represented by **`**, AND by **.** and OR by **+**.
 
 ```
 Theta(0,0): X AND Y = X.Y

@@ -93,9 +93,9 @@ Neural Network API model takes less average computation time per epoch than Pyto
 It is observed that high learning rate makes the network converge faster, i.e. lower loss and higher accuracy is achieved in less epochs than when using low learning rate. All observations recorded after 30 epochs.
 
 #### Time and Accuracy vs Network size
-Lower number of hidden layers reduces training time, however, the final accuracy achieved is slightly less than that achieved with higher no of hidden layers. All observations recordded after 30 epochs
+Lower number of hidden layers reduces training time, however, the final accuracy achieved is slightly less than that achieved with higher no of hidden layers. All observations recorded after 30 epochs
 
-|MyImg2Num Network|Final Accuracy|NnImg2Num Learning Rate|Final Accuracy|
+|MyImg2Num Network|Final Accuracy|NnImg2Num Network|Final Accuracy|
 |----|---------|---------|----|
 |784, 512, 256, 64, 10|98.3|784, 512, 256, 64, 10|98.0|
 |784, 512, 64, 10|98.2|784, 512, 64, 10|97.8|

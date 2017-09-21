@@ -60,11 +60,17 @@ This assignment deals with training and testing [**The MNIST Database**](http://
 ## **Results and Observations**
 ### MyImg2Num
 #### Loss vs Epoch Comparison
+![Plot1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-04/MyImg2Num_LossvsEpoch_60.png)
 #### Time vs Epoch Comparison
+![Plot2](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-04/MyImg2Num_TimevsEpoch_60.png)
+
 
 ### NnImg2Num
 #### Loss vs Epoch Comparison
+![Plot3](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-04/NnImg2Num_LossvsEpoch_60.png)
 #### Time vs Epoch Comparison
+![Plot4](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-04/NnImg2Num_TimevsEpoch_60.png)
+
 
 ### MyImg2Num vs NnImg2Num
 #### Average Loss Comparison

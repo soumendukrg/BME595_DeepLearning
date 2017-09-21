@@ -60,25 +60,29 @@ This assignment deals with training and testing [**The MNIST Database**](http://
 ## **Results and Observations**
 ### **MyImg2Num**
 #### Loss vs Epoch Comparison
-![Plot1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-04/MyImg2Num_LossvsEpoch_60.png)
+![Plot1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-04/MyImg2Num_LossvsEpoch_30_lr0.1_large_net.png)
 It can be observed from the plot that the average training loss and average validation loss is high after the 1st epoch. This also justifies low validation accuracy. They both fall down steeply in the 2nd epoch. This indicates that the network is being properly trainted. The losses reduce slowly and accuracy increases slowly with each epoch. Towards the later epochs, the loss and accuracy is almost constant, indicating saturation.
 
 #### Time vs Epoch Comparison
-![Plot2](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-04/MyImg2Num_TimevsEpoch_60.png)
+![Plot2](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-04/MyImg2Num_TimevsEpoch_30_lr0.1_large_net.png)
 Though it is expected that time per epoch should be fairly similar, it fluctuates a bit. This may be affected by other running programs in the computer. 
 
 ### NnImg2Num
 #### Loss vs Epoch Comparison
-![Plot3](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-04/NnImg2Num_LossvsEpoch_60.png)
+![Plot3](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-04/NnImg2Num_LossvsEpoch_30_lr15_large_net.png)
 Similar to the NeuralNetwork API, initial loss is high, decreases sharply and then gradually, until it saturates. 
 
 #### Time vs Epoch Comparison
-![Plot4](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-04/NnImg2Num_TimevsEpoch_60.png)
+![Plot4](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-04/NnImg2Num_TimevsEpoch_30_lr15_large_net.png)
 In this case also, time per epoch fluctuates.
 
 ### MyImg2Num vs NnImg2Num
 #### Average Loss Comparison
 It is observed that network built using NeuralNetwork API reaches higher accuracy and lower loss much faster than network built using nn package. Also final accuracy after 30 epochs is slightly better in case of NeuralNetwork API.
+
+|MyImg2Num Learning Rate|Final Accuracy|NnImg2Num Learning Rate|Final Accuracy|
+|----|---------|---------|----|
+|0.1|98.3|15.0|98.0|
 
 #### Accuracy Comparison
 #### Time Comparison
@@ -86,11 +90,7 @@ Neural Network API model takes less average computation time per epoch than Pyto
 
 ### Observations
 #### Learning rate vs Accuracy
-It is observed that high learning rate makes the network converge faster, i.e. lower loss and higher accuracy is achieved in less epochs than when using low learning rate. All observations recordded after 30 epochs.
-
-|MyImg2Num Learning Rate|Final Accuracy|NnImg2Num Learning Rate|Final Accuracy|
-|----|---------|---------|----|
-|0.1|98.3|15.0|98.0|
+It is observed that high learning rate makes the network converge faster, i.e. lower loss and higher accuracy is achieved in less epochs than when using low learning rate. All observations recorded after 30 epochs.
 
 #### Time and Accuracy vs Network size
 Lower number of hidden layers reduces training time, however, the final accuracy achieved is slightly less than that achieved with higher no of hidden layers. All observations recordded after 30 epochs
@@ -98,7 +98,7 @@ Lower number of hidden layers reduces training time, however, the final accuracy
 |MyImg2Num Network|Final Accuracy|NnImg2Num Learning Rate|Final Accuracy|
 |----|---------|---------|----|
 |784, 512, 256, 64, 10|98.3|784, 512, 256, 64, 10|98.0|
-|784, 512, 64, 10|98.2|784, 512, 4, 10|97.8|
+|784, 512, 64, 10|98.2|784, 512, 64, 10|97.8|
 
 
 

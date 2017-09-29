@@ -26,7 +26,7 @@ This is the superclass which defines the convolutional neural network model. Thi
 - C1 - 1st **2D Convolution layer** (`input channel=1, output channel=6, kernel size=5, padding=2`): Performs 2D convolution on the input image . The padding is used so that our network can capture the features at the corner of the image as well. `ReLu` activation function has been used on the output of this layer.
 - S2 - **2D MaxPool layer** (`kernel size=2`): Takes the maximum of each 2x2 region of the output of last layer. This is repeated over all the channels. This basically makes the network scale invariant. This function of this layer is subsampling.
 - C3 - 2nd **2D Convolution layer**(`input channel=6, output channel=16, kernel size=5`): Performs 2D convolution on the outputs of the last layer  followed by `ReLu` activation function.
-- S4 - **2D MaxPool layer** (`kernel size=5`): Performs subsampling.
+- S4 - **2D MaxPool layer** (`kernel size=2`): Performs subsampling.
 - C5 - **Fully connected layer** (`no of neurons=120`): This is actually a 3rd **2D Convolution layer** (`input size=16, output channel=120, kernel size=1`), where each unit is connected to a 5x5 neighbourhood on all 16 of previous layer output channels. As the size of the kernel is 1x1, this boils down to being fully connected with the previous layer. `ReLu` is the activation function.
 - L6 - **Fully connected layer** (`no of neurons=84`): This is fully connected with C5.`ReLu` is the activation function.
 - **OUTPUT LAYER** (`no of neurons=10`): The no of nodes here is same as the no of classes in MNIST dataset.
@@ -52,6 +52,7 @@ This is the superclass which defines the convolutional neural network model. Thi
     - This method trains the model using training dataset and test the model usign validation dataset for predefined number of epochs. It also calculates result parameters like loss, accuracy, etc.
   - `[int] forward([28x28 ByteTensor] img)`:
     - This method takes a single image from MNIST dataset, unsqueezes it to size `1x1x28x28` and feeds it to the trained network. It returns the predicted label(class) of the input image.
+  - At the end of each epoch, the epoch num, best accuracy, model state dictionary, optimizer dictionary, and list of results (training loss, validation loss, validation accuracy, and computation time for training) are saved, so that training can be resumed later from a saved checkpoint.
 
 ## **Results and Observations**
 ### **LeNet5 model (img2num) vs Basic (Fully connected) model (NnImg2Num)**

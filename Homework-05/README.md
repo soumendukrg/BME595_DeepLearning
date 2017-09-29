@@ -21,6 +21,7 @@ This assignment deals with training and testing of two types of datasets using t
 
 # MNIST
 ## API
+The file *img2num.py* implements the following.
 #### MODEL: LeNet5
 This is the superclass which defines the convolutional neural network model. This model comprises of:
 - C1 - 1st **2D Convolution layer** (`input channel=1, output channel=6, kernel size=5, padding=2`): Performs 2D convolution on the input image . The padding is used so that our network can capture the features at the corner of the image as well. `ReLu` activation function has been used on the output of this layer.
@@ -43,16 +44,15 @@ This is the superclass which defines the convolutional neural network model. Thi
 
 
 ### Class: img2num
-  - The file *img2num.py* implements this class.
   - `__init__`: The class constructor performs the following tasks:
     - Instantiates model, loss, optimizer, hyperparameters for training and validation.
     - Downloads the *MNIST* dataset on the host PC using `torch.utils.data.DataLoader`.
     - Loads a previously saved checkpoint (if present) consisting of last saved epoch, best accuracy, model state dictionary, optimizer dictionary, and list of results (training loss, validation loss, validation accuracy, and computation time for training). If no saved checkpoint is found, initializes list of results.
   - `train()`:
-    - This method trains the model using training dataset and test the model usign validation dataset for predefined number of epochs. It also calculates result parameters like loss, accuracy, etc.
+    - This method trains the model using training dataset and test the model using validation dataset for predefined number of epochs. It also calculates result parameters like loss, accuracy, etc.
+    - At the end of each epoch, the epoch num, best accuracy, model state dictionary, optimizer dictionary, and list of results (training loss, validation loss, validation accuracy, and computation time for training) are saved, so that training can be resumed later from a saved checkpoint.
   - `[int] forward([28x28 ByteTensor] img)`:
     - This method takes a single image from MNIST dataset, unsqueezes it to size `1x1x28x28` and feeds it to the trained network. It returns the predicted label(class) of the input image.
-  - At the end of each epoch, the epoch num, best accuracy, model state dictionary, optimizer dictionary, and list of results (training loss, validation loss, validation accuracy, and computation time for training) are saved, so that training can be resumed later from a saved checkpoint.
 
 ## **Results and Observations**
 ### **LeNet5 model (img2num) vs Basic (Fully connected) model (NnImg2Num)**
@@ -76,3 +76,62 @@ LeNet5 model obtains better accuracy than Basic Model.
 |LeNet5 Model|     50    |    0.000173  |   0.001344     |      758     |     99.25%         |
 |Basic Model |     20    |    0.001893	|   0.003710     |      205.06  |     97.68%         |
 |Basic Model |     50    |    0.000435	|   0.003278     |      496     |     98.00%         |
+
+# CIFAR-100
+## API
+ The file *img2obj.py* implements the following.
+#### MODEL: LeNet5
+This is the superclass which defines the convolutional neural network model. This model is same as the one defined previously for MNIST except the first layer where instead of 1, now we have 3 input channels, as the images are colored images with R, G, B channels. Also, no padding is added. (C1 - 1st **2D Convolution layer** (`input channel=1, output channel=6, kernel size=5`))
+#### LOSS FUNCTION: Cross Entropy Loss
+#### OPTIMIZER: Adam
+
+### Hyperparameters
+|     Type             |  Value  |
+|----------------------|---------|
+|Training Batch Size   |  125    | 
+|Validation Batch Size | 1000    |
+|Learning Rate for Adam|  0.001  |
+|Weight Decay for Adam |  0.0005 |
+|Number of Epochs      |   50    |
+
+### Class: img2num
+  - `__init__`: The class constructor performs the following tasks:
+    - Instantiates model, loss, optimizer, hyperparameters for training and validation.
+    - Creates a list `self.classes` which contains the names of the fine labels of the 100 different categories.
+    - Downloads the *CIFAR-100* dataset on the host PC using `torch.utils.data.DataLoader`. Image Normalization and Image Augmentation (in the form of `RandomHorizontalFlip`) has been added. The normalization is done to change the range of the tensors from [0, 1] to [-0.5, 0.5] so that its easier for the network to learn. Image augmentation facilitates the learning of the network so that the network learns how to recognize the same image in different orientations.
+    - Loads a previously saved checkpoint (if present), else, initializes list of results.
+  - `train()`:
+    - This method trains the model using training dataset and test the model using validation dataset for predefined number of epochs. It also calculates result parameters like loss, accuracy, etc.
+    - At the end of each epoch, checkpoint is saved.
+  - `[str] forward([3x28x28 ByteTensor] img)`:
+    - This method takes a single image from CIFAR-100 dataset, unsqueezes it to size `1x3x32x32` and feeds it to the trained network. It returns the string from self.classes whose index matches the predicted label.
+  - `[nil] view([3x32x32 ByteTensor] img)`:
+      - This method will take an image, display the image and its predicted label by the trained network.
+      - The input image tensor is unnormalized, transposed from 3x32x32 to 32x32x3 and converted to numpy. OpenCV is used to display the image in a magnified form.
+  - `[nil] cam(self, idx=0)`:
+    - This method is used to fetch images from the camera, it starts the video capture from the webcam, frame by frame.
+    - It preprocess (scale down to 32x32, convert to tensor and normalize) the frame and send it to the forward method.
+    - Live Video from the webcam is displayed using OpenCV and the predicted class is displayed in front of the video.
+
+## **Results and Observations**
+#### Loss vs Epoch
+![Plot4](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-05/CIFAR100/Results/LossvsEpoch50_Adam__wd_flip.png)
+![Plot5](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-05/CIFAR100/Results/LossvsEpoch200_Adam__wd_flip.png)
+Even after 200 epochs, training and validation loss is not low. It is a case of underfitting. The model parameters needs to be increased to achieve better results. L2 regularisation was applied in Adam optimizer to reduce overfitting and postive response was observed.
+
+#### Time vs Epoch
+![Plot6](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-05/CIFAR100/Results/TimevsEpoch50_Adam_wd_flip.png)
+![Plot7](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-05/CIFAR100/Results/TimevsEpoch200_Adam_wd_flip.png)
+
+#### Accuracy
+- The model achieved less training and validation accuracy. Explanation same as mentioned in Loss vs Epoch.
+![Plot8](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-05/CIFAR100/Results/AccuracyvsEpoch50_Adam_flip_wd.png)
+![Plot9](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-05/CIFAR100/Results/AccuracyvsEpoch200_Adam_flip_wd.png)
+
+
+#### **Table**: Results of LeNet5 on CIFAR-100
+
+|  Model     |   Epoch   |  Training Accuracy| Validation Accuracy|
+|------------|-----------|-------------------|--------------------|
+|LeNet5 Model|     50    |      42.14%       |     34.23%         |
+|LeNet5 Model|     200   |      47.38%       |     37.19%         |

@@ -1,0 +1,724 @@
+/home/soumendu/anaconda3/bin/python3.6 /home/soumendu/BME595/Assignments/Work/Homework05/test_MNIST.py
+
+Loading from checkpoint file: NnImg2Num_model_checkpoint.pth.tar
+
+Completed loading from checkpoint NnImg2Num_model_checkpoint.pth.tar, (last saved epoch 3, best accuracy till now 88.11)
+
+Starting training of simple neural network using NnImg2Num on MNIST dataset from epoch 4
+
+Train Epoch: 4 [60000/60000 (100.0%)]	Loss: 0.011296	 Average Training loss: 0.016086	 Computation Time: 13.24 seconds
+
+Validation Epoch 4: Average loss: 0.012917, Accuracy: 9132/10000 (91.32%)
+
+Saving checkpoint after completion of epoch 4
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 5 [60000/60000 (100.0%)]	Loss: 0.011482	 Average Training loss: 0.011994	 Computation Time: 11.62 seconds
+
+Validation Epoch 5: Average loss: 0.010815, Accuracy: 9292/10000 (92.92%)
+
+Saving checkpoint after completion of epoch 5
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 6 [60000/60000 (100.0%)]	Loss: 0.006212	 Average Training loss: 0.009485	 Computation Time: 12.69 seconds
+
+Validation Epoch 6: Average loss: 0.008232, Accuracy: 9471/10000 (94.71%)
+
+Saving checkpoint after completion of epoch 6
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 7 [60000/60000 (100.0%)]	Loss: 0.011366	 Average Training loss: 0.007814	 Computation Time: 13.73 seconds
+
+Validation Epoch 7: Average loss: 0.007398, Accuracy: 9520/10000 (95.20%)
+
+Saving checkpoint after completion of epoch 7
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 8 [60000/60000 (100.0%)]	Loss: 0.005861	 Average Training loss: 0.006651	 Computation Time: 10.01 seconds
+
+Validation Epoch 8: Average loss: 0.006922, Accuracy: 9547/10000 (95.47%)
+
+Saving checkpoint after completion of epoch 8
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 9 [60000/60000 (100.0%)]	Loss: 0.009131	 Average Training loss: 0.005683	 Computation Time: 10.12 seconds
+
+Validation Epoch 9: Average loss: 0.005986, Accuracy: 9626/10000 (96.26%)
+
+Saving checkpoint after completion of epoch 9
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 10 [60000/60000 (100.0%)]	Loss: 0.004208	 Average Training loss: 0.005029	 Computation Time: 9.64 seconds
+
+Validation Epoch 10: Average loss: 0.005203, Accuracy: 9675/10000 (96.75%)
+
+Saving checkpoint after completion of epoch 10
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 11 [60000/60000 (100.0%)]	Loss: 0.006890	 Average Training loss: 0.004482	 Computation Time: 9.65 seconds
+
+Validation Epoch 11: Average loss: 0.006170, Accuracy: 9603/10000 (96.03%)
+
+Saving checkpoint after completion of epoch 11
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 12 [60000/60000 (100.0%)]	Loss: 0.001787	 Average Training loss: 0.003908	 Computation Time: 9.37 seconds
+
+Validation Epoch 12: Average loss: 0.005379, Accuracy: 9663/10000 (96.63%)
+
+Saving checkpoint after completion of epoch 12
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 13 [60000/60000 (100.0%)]	Loss: 0.002839	 Average Training loss: 0.003510	 Computation Time: 9.60 seconds
+
+Validation Epoch 13: Average loss: 0.004599, Accuracy: 9716/10000 (97.16%)
+
+Saving checkpoint after completion of epoch 13
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 14 [60000/60000 (100.0%)]	Loss: 0.003601	 Average Training loss: 0.003221	 Computation Time: 9.60 seconds
+
+Validation Epoch 14: Average loss: 0.004656, Accuracy: 9702/10000 (97.02%)
+
+Saving checkpoint after completion of epoch 14
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 15 [60000/60000 (100.0%)]	Loss: 0.002768	 Average Training loss: 0.002903	 Computation Time: 9.53 seconds
+
+Validation Epoch 15: Average loss: 0.004426, Accuracy: 9704/10000 (97.04%)
+
+Saving checkpoint after completion of epoch 15
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 16 [60000/60000 (100.0%)]	Loss: 0.000044	 Average Training loss: 0.002726	 Computation Time: 9.48 seconds
+
+Validation Epoch 16: Average loss: 0.004022, Accuracy: 9742/10000 (97.42%)
+
+Saving checkpoint after completion of epoch 16
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 17 [60000/60000 (100.0%)]	Loss: 0.000339	 Average Training loss: 0.002455	 Computation Time: 9.46 seconds
+
+Validation Epoch 17: Average loss: 0.004190, Accuracy: 9734/10000 (97.34%)
+
+Saving checkpoint after completion of epoch 17
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 18 [60000/60000 (100.0%)]	Loss: 0.003829	 Average Training loss: 0.002277	 Computation Time: 9.61 seconds
+
+Validation Epoch 18: Average loss: 0.004409, Accuracy: 9722/10000 (97.22%)
+
+Saving checkpoint after completion of epoch 18
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 19 [60000/60000 (100.0%)]	Loss: 0.000187	 Average Training loss: 0.002048	 Computation Time: 9.59 seconds
+
+Validation Epoch 19: Average loss: 0.003844, Accuracy: 9760/10000 (97.60%)
+
+Saving checkpoint after completion of epoch 19
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 20 [60000/60000 (100.0%)]	Loss: 0.006117	 Average Training loss: 0.001893	 Computation Time: 9.62 seconds
+
+Validation Epoch 20: Average loss: 0.003710, Accuracy: 9768/10000 (97.68%)
+
+Saving checkpoint after completion of epoch 20
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 21 [60000/60000 (100.0%)]	Loss: 0.000206	 Average Training loss: 0.001760	 Computation Time: 9.59 seconds
+
+Validation Epoch 21: Average loss: 0.003669, Accuracy: 9762/10000 (97.62%)
+
+Saving checkpoint after completion of epoch 21
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 22 [60000/60000 (100.0%)]	Loss: 0.001676	 Average Training loss: 0.001637	 Computation Time: 9.49 seconds
+
+Validation Epoch 22: Average loss: 0.003607, Accuracy: 9781/10000 (97.81%)
+
+Saving checkpoint after completion of epoch 22
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 23 [60000/60000 (100.0%)]	Loss: 0.004542	 Average Training loss: 0.001500	 Computation Time: 9.48 seconds
+
+Validation Epoch 23: Average loss: 0.003597, Accuracy: 9777/10000 (97.77%)
+
+Saving checkpoint after completion of epoch 23
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 24 [60000/60000 (100.0%)]	Loss: 0.000023	 Average Training loss: 0.001357	 Computation Time: 9.56 seconds
+
+Validation Epoch 24: Average loss: 0.003485, Accuracy: 9790/10000 (97.90%)
+
+Saving checkpoint after completion of epoch 24
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 25 [60000/60000 (100.0%)]	Loss: 0.003012	 Average Training loss: 0.001267	 Computation Time: 9.57 seconds
+
+Validation Epoch 25: Average loss: 0.003426, Accuracy: 9788/10000 (97.88%)
+
+Saving checkpoint after completion of epoch 25
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 26 [60000/60000 (100.0%)]	Loss: 0.000258	 Average Training loss: 0.001182	 Computation Time: 9.56 seconds
+
+Validation Epoch 26: Average loss: 0.003538, Accuracy: 9785/10000 (97.85%)
+
+Saving checkpoint after completion of epoch 26
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 27 [60000/60000 (100.0%)]	Loss: 0.000229	 Average Training loss: 0.001108	 Computation Time: 9.50 seconds
+
+Validation Epoch 27: Average loss: 0.003690, Accuracy: 9773/10000 (97.73%)
+
+Saving checkpoint after completion of epoch 27
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 28 [60000/60000 (100.0%)]	Loss: 0.000444	 Average Training loss: 0.001034	 Computation Time: 9.52 seconds
+
+Validation Epoch 28: Average loss: 0.003438, Accuracy: 9794/10000 (97.94%)
+
+Saving checkpoint after completion of epoch 28
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 29 [60000/60000 (100.0%)]	Loss: 0.006127	 Average Training loss: 0.000964	 Computation Time: 9.53 seconds
+
+Validation Epoch 29: Average loss: 0.003520, Accuracy: 9782/10000 (97.82%)
+
+Saving checkpoint after completion of epoch 29
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 30 [60000/60000 (100.0%)]	Loss: 0.000190	 Average Training loss: 0.000894	 Computation Time: 9.57 seconds
+
+Validation Epoch 30: Average loss: 0.003523, Accuracy: 9784/10000 (97.84%)
+
+Saving checkpoint after completion of epoch 30
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 31 [60000/60000 (100.0%)]	Loss: 0.002311	 Average Training loss: 0.000852	 Computation Time: 9.59 seconds
+
+Validation Epoch 31: Average loss: 0.003550, Accuracy: 9783/10000 (97.83%)
+
+Saving checkpoint after completion of epoch 31
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 32 [60000/60000 (100.0%)]	Loss: 0.003322	 Average Training loss: 0.000798	 Computation Time: 9.48 seconds
+
+Validation Epoch 32: Average loss: 0.003477, Accuracy: 9791/10000 (97.91%)
+
+Saving checkpoint after completion of epoch 32
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 33 [60000/60000 (100.0%)]	Loss: 0.000164	 Average Training loss: 0.000758	 Computation Time: 9.40 seconds
+
+Validation Epoch 33: Average loss: 0.003341, Accuracy: 9801/10000 (98.01%)
+
+Saving checkpoint after completion of epoch 33
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 34 [60000/60000 (100.0%)]	Loss: 0.001719	 Average Training loss: 0.000692	 Computation Time: 9.51 seconds
+
+Validation Epoch 34: Average loss: 0.003341, Accuracy: 9801/10000 (98.01%)
+
+Saving checkpoint after completion of epoch 34
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 35 [60000/60000 (100.0%)]	Loss: 0.000034	 Average Training loss: 0.000660	 Computation Time: 9.49 seconds
+
+Validation Epoch 35: Average loss: 0.003371, Accuracy: 9792/10000 (97.92%)
+
+Saving checkpoint after completion of epoch 35
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 36 [60000/60000 (100.0%)]	Loss: 0.000131	 Average Training loss: 0.000639	 Computation Time: 9.50 seconds
+
+Validation Epoch 36: Average loss: 0.003324, Accuracy: 9796/10000 (97.96%)
+
+Saving checkpoint after completion of epoch 36
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 37 [60000/60000 (100.0%)]	Loss: 0.000124	 Average Training loss: 0.000604	 Computation Time: 9.54 seconds
+
+Validation Epoch 37: Average loss: 0.003399, Accuracy: 9788/10000 (97.88%)
+
+Saving checkpoint after completion of epoch 37
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 38 [60000/60000 (100.0%)]	Loss: 0.001723	 Average Training loss: 0.000578	 Computation Time: 9.61 seconds
+
+Validation Epoch 38: Average loss: 0.003318, Accuracy: 9796/10000 (97.96%)
+
+Saving checkpoint after completion of epoch 38
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 39 [60000/60000 (100.0%)]	Loss: 0.001479	 Average Training loss: 0.000556	 Computation Time: 9.41 seconds
+
+Validation Epoch 39: Average loss: 0.003348, Accuracy: 9797/10000 (97.97%)
+
+Saving checkpoint after completion of epoch 39
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 40 [60000/60000 (100.0%)]	Loss: 0.000034	 Average Training loss: 0.000544	 Computation Time: 9.50 seconds
+
+Validation Epoch 40: Average loss: 0.003384, Accuracy: 9791/10000 (97.91%)
+
+Saving checkpoint after completion of epoch 40
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 41 [60000/60000 (100.0%)]	Loss: 0.000056	 Average Training loss: 0.000542	 Computation Time: 9.33 seconds
+
+Validation Epoch 41: Average loss: 0.003293, Accuracy: 9796/10000 (97.96%)
+
+Saving checkpoint after completion of epoch 41
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 42 [60000/60000 (100.0%)]	Loss: 0.003492	 Average Training loss: 0.000569	 Computation Time: 9.41 seconds
+
+Validation Epoch 42: Average loss: 0.003341, Accuracy: 9794/10000 (97.94%)
+
+Saving checkpoint after completion of epoch 42
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 43 [60000/60000 (100.0%)]	Loss: 0.000094	 Average Training loss: 0.000526	 Computation Time: 13.74 seconds
+
+Validation Epoch 43: Average loss: 0.003329, Accuracy: 9797/10000 (97.97%)
+
+Saving checkpoint after completion of epoch 43
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 44 [60000/60000 (100.0%)]	Loss: 0.000073	 Average Training loss: 0.000508	 Computation Time: 9.39 seconds
+
+Validation Epoch 44: Average loss: 0.003321, Accuracy: 9797/10000 (97.97%)
+
+Saving checkpoint after completion of epoch 44
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 45 [60000/60000 (100.0%)]	Loss: 0.000159	 Average Training loss: 0.000492	 Computation Time: 9.53 seconds
+
+Validation Epoch 45: Average loss: 0.003371, Accuracy: 9793/10000 (97.93%)
+
+Saving checkpoint after completion of epoch 45
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 46 [60000/60000 (100.0%)]	Loss: 0.000068	 Average Training loss: 0.000477	 Computation Time: 9.89 seconds
+
+Validation Epoch 46: Average loss: 0.003380, Accuracy: 9795/10000 (97.95%)
+
+Saving checkpoint after completion of epoch 46
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 47 [60000/60000 (100.0%)]	Loss: 0.003334	 Average Training loss: 0.000467	 Computation Time: 10.40 seconds
+
+Validation Epoch 47: Average loss: 0.003337, Accuracy: 9790/10000 (97.90%)
+
+Saving checkpoint after completion of epoch 47
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 48 [60000/60000 (100.0%)]	Loss: 0.000033	 Average Training loss: 0.000452	 Computation Time: 9.38 seconds
+
+Validation Epoch 48: Average loss: 0.003415, Accuracy: 9792/10000 (97.92%)
+
+Saving checkpoint after completion of epoch 48
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 49 [60000/60000 (100.0%)]	Loss: 0.000059	 Average Training loss: 0.000461	 Computation Time: 9.48 seconds
+
+Validation Epoch 49: Average loss: 0.003403, Accuracy: 9788/10000 (97.88%)
+
+Saving checkpoint after completion of epoch 49
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 50 [60000/60000 (100.0%)]	Loss: 0.000077	 Average Training loss: 0.000435	 Computation Time: 9.40 seconds
+
+Validation Epoch 50: Average loss: 0.003278, Accuracy: 9800/10000 (98.00%)
+
+Saving checkpoint after completion of epoch 50
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Average computation time over all iterations 9.92 seconds
+
+Loading from checkpoint file: img2num_model_checkpoint.pth.tar
+
+Completed loading from checkpoint img2num_model_checkpoint.pth.tar, (last saved epoch 3, best accuracy till now 98.84)
+
+Starting training of LeNet5 network using img2num on MNIST dataset from epoch 4
+
+Train Epoch: 4 [60000/60000 (100.0%)]	Loss: 0.002523	 Average Training loss: 0.003414	 Computation Time: 15.33 seconds
+
+Validation Epoch 4: Average loss: 0.002968 	 Accuracy: 9897/10000 (98.97%)
+
+Saving checkpoint after completion of epoch 4
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 5 [60000/60000 (100.0%)]	Loss: 0.002094	 Average Training loss: 0.002904	 Computation Time: 14.69 seconds
+
+Validation Epoch 5: Average loss: 0.002747 	 Accuracy: 9888/10000 (98.88%)
+
+Saving checkpoint after completion of epoch 5
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 6 [60000/60000 (100.0%)]	Loss: 0.002605	 Average Training loss: 0.002524	 Computation Time: 14.74 seconds
+
+Validation Epoch 6: Average loss: 0.002447 	 Accuracy: 9909/10000 (99.09%)
+
+Saving checkpoint after completion of epoch 6
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 7 [60000/60000 (100.0%)]	Loss: 0.000853	 Average Training loss: 0.002210	 Computation Time: 14.77 seconds
+
+Validation Epoch 7: Average loss: 0.002225 	 Accuracy: 9912/10000 (99.12%)
+
+Saving checkpoint after completion of epoch 7
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 8 [60000/60000 (100.0%)]	Loss: 0.000580	 Average Training loss: 0.001983	 Computation Time: 14.66 seconds
+
+Validation Epoch 8: Average loss: 0.002015 	 Accuracy: 9914/10000 (99.14%)
+
+Saving checkpoint after completion of epoch 8
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 9 [60000/60000 (100.0%)]	Loss: 0.000930	 Average Training loss: 0.001775	 Computation Time: 14.70 seconds
+
+Validation Epoch 9: Average loss: 0.001965 	 Accuracy: 9920/10000 (99.20%)
+
+Saving checkpoint after completion of epoch 9
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 10 [60000/60000 (100.0%)]	Loss: 0.001661	 Average Training loss: 0.001640	 Computation Time: 14.81 seconds
+
+Validation Epoch 10: Average loss: 0.001844 	 Accuracy: 9923/10000 (99.23%)
+
+Saving checkpoint after completion of epoch 10
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 11 [60000/60000 (100.0%)]	Loss: 0.001628	 Average Training loss: 0.001481	 Computation Time: 14.63 seconds
+
+Validation Epoch 11: Average loss: 0.001824 	 Accuracy: 9920/10000 (99.20%)
+
+Saving checkpoint after completion of epoch 11
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 12 [60000/60000 (100.0%)]	Loss: 0.000905	 Average Training loss: 0.001365	 Computation Time: 14.64 seconds
+
+Validation Epoch 12: Average loss: 0.001833 	 Accuracy: 9915/10000 (99.15%)
+
+Saving checkpoint after completion of epoch 12
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 13 [60000/60000 (100.0%)]	Loss: 0.001523	 Average Training loss: 0.001271	 Computation Time: 14.80 seconds
+
+Validation Epoch 13: Average loss: 0.001787 	 Accuracy: 9912/10000 (99.12%)
+
+Saving checkpoint after completion of epoch 13
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 14 [60000/60000 (100.0%)]	Loss: 0.001096	 Average Training loss: 0.001183	 Computation Time: 14.64 seconds
+
+Validation Epoch 14: Average loss: 0.001651 	 Accuracy: 9922/10000 (99.22%)
+
+Saving checkpoint after completion of epoch 14
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 15 [60000/60000 (100.0%)]	Loss: 0.000918	 Average Training loss: 0.001099	 Computation Time: 14.65 seconds
+
+Validation Epoch 15: Average loss: 0.001668 	 Accuracy: 9917/10000 (99.17%)
+
+Saving checkpoint after completion of epoch 15
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 16 [60000/60000 (100.0%)]	Loss: 0.002376	 Average Training loss: 0.001018	 Computation Time: 14.65 seconds
+
+Validation Epoch 16: Average loss: 0.001634 	 Accuracy: 9909/10000 (99.09%)
+
+Saving checkpoint after completion of epoch 16
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 17 [60000/60000 (100.0%)]	Loss: 0.000874	 Average Training loss: 0.000948	 Computation Time: 14.71 seconds
+
+Validation Epoch 17: Average loss: 0.001601 	 Accuracy: 9922/10000 (99.22%)
+
+Saving checkpoint after completion of epoch 17
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 18 [60000/60000 (100.0%)]	Loss: 0.001127	 Average Training loss: 0.000893	 Computation Time: 14.50 seconds
+
+Validation Epoch 18: Average loss: 0.001569 	 Accuracy: 9922/10000 (99.22%)
+
+Saving checkpoint after completion of epoch 18
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 19 [60000/60000 (100.0%)]	Loss: 0.000802	 Average Training loss: 0.000835	 Computation Time: 14.53 seconds
+
+Validation Epoch 19: Average loss: 0.001458 	 Accuracy: 9926/10000 (99.26%)
+
+Saving checkpoint after completion of epoch 19
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 20 [60000/60000 (100.0%)]	Loss: 0.000271	 Average Training loss: 0.000779	 Computation Time: 14.75 seconds
+
+Validation Epoch 20: Average loss: 0.001518 	 Accuracy: 9913/10000 (99.13%)
+
+Saving checkpoint after completion of epoch 20
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 21 [60000/60000 (100.0%)]	Loss: 0.000192	 Average Training loss: 0.000744	 Computation Time: 14.79 seconds
+
+Validation Epoch 21: Average loss: 0.001461 	 Accuracy: 9929/10000 (99.29%)
+
+Saving checkpoint after completion of epoch 21
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 22 [60000/60000 (100.0%)]	Loss: 0.000486	 Average Training loss: 0.000694	 Computation Time: 14.67 seconds
+
+Validation Epoch 22: Average loss: 0.001543 	 Accuracy: 9918/10000 (99.18%)
+
+Saving checkpoint after completion of epoch 22
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 23 [60000/60000 (100.0%)]	Loss: 0.001011	 Average Training loss: 0.000657	 Computation Time: 14.77 seconds
+
+Validation Epoch 23: Average loss: 0.001496 	 Accuracy: 9920/10000 (99.20%)
+
+Saving checkpoint after completion of epoch 23
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 24 [60000/60000 (100.0%)]	Loss: 0.001219	 Average Training loss: 0.000614	 Computation Time: 14.74 seconds
+
+Validation Epoch 24: Average loss: 0.001579 	 Accuracy: 9918/10000 (99.18%)
+
+Saving checkpoint after completion of epoch 24
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 25 [60000/60000 (100.0%)]	Loss: 0.000333	 Average Training loss: 0.000571	 Computation Time: 14.58 seconds
+
+Validation Epoch 25: Average loss: 0.001389 	 Accuracy: 9929/10000 (99.29%)
+
+Saving checkpoint after completion of epoch 25
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 26 [60000/60000 (100.0%)]	Loss: 0.000158	 Average Training loss: 0.000546	 Computation Time: 14.75 seconds
+
+Validation Epoch 26: Average loss: 0.001458 	 Accuracy: 9926/10000 (99.26%)
+
+Saving checkpoint after completion of epoch 26
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 27 [60000/60000 (100.0%)]	Loss: 0.000154	 Average Training loss: 0.000514	 Computation Time: 18.90 seconds
+
+Validation Epoch 27: Average loss: 0.001368 	 Accuracy: 9928/10000 (99.28%)
+
+Saving checkpoint after completion of epoch 27
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 28 [60000/60000 (100.0%)]	Loss: 0.000340	 Average Training loss: 0.000472	 Computation Time: 13.93 seconds
+
+Validation Epoch 28: Average loss: 0.001393 	 Accuracy: 9928/10000 (99.28%)
+
+Saving checkpoint after completion of epoch 28
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 29 [60000/60000 (100.0%)]	Loss: 0.000170	 Average Training loss: 0.000452	 Computation Time: 13.87 seconds
+
+Validation Epoch 29: Average loss: 0.001341 	 Accuracy: 9929/10000 (99.29%)
+
+Saving checkpoint after completion of epoch 29
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 30 [60000/60000 (100.0%)]	Loss: 0.000099	 Average Training loss: 0.000426	 Computation Time: 13.99 seconds
+
+Validation Epoch 30: Average loss: 0.001374 	 Accuracy: 9926/10000 (99.26%)
+
+Saving checkpoint after completion of epoch 30
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 31 [60000/60000 (100.0%)]	Loss: 0.000353	 Average Training loss: 0.000407	 Computation Time: 13.87 seconds
+
+Validation Epoch 31: Average loss: 0.001423 	 Accuracy: 9931/10000 (99.31%)
+
+Saving checkpoint after completion of epoch 31
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 32 [60000/60000 (100.0%)]	Loss: 0.000077	 Average Training loss: 0.000400	 Computation Time: 14.33 seconds
+
+Validation Epoch 32: Average loss: 0.001308 	 Accuracy: 9930/10000 (99.30%)
+
+Saving checkpoint after completion of epoch 32
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 33 [60000/60000 (100.0%)]	Loss: 0.000135	 Average Training loss: 0.000369	 Computation Time: 14.40 seconds
+
+Validation Epoch 33: Average loss: 0.001362 	 Accuracy: 9924/10000 (99.24%)
+
+Saving checkpoint after completion of epoch 33
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 34 [60000/60000 (100.0%)]	Loss: 0.000337	 Average Training loss: 0.000352	 Computation Time: 14.84 seconds
+
+Validation Epoch 34: Average loss: 0.001405 	 Accuracy: 9923/10000 (99.23%)
+
+Saving checkpoint after completion of epoch 34
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 35 [60000/60000 (100.0%)]	Loss: 0.000284	 Average Training loss: 0.000334	 Computation Time: 15.73 seconds
+
+Validation Epoch 35: Average loss: 0.001337 	 Accuracy: 9928/10000 (99.28%)
+
+Saving checkpoint after completion of epoch 35
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 36 [60000/60000 (100.0%)]	Loss: 0.000095	 Average Training loss: 0.000323	 Computation Time: 15.31 seconds
+
+Validation Epoch 36: Average loss: 0.001391 	 Accuracy: 9918/10000 (99.18%)
+
+Saving checkpoint after completion of epoch 36
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 37 [60000/60000 (100.0%)]	Loss: 0.000156	 Average Training loss: 0.000308	 Computation Time: 15.81 seconds
+
+Validation Epoch 37: Average loss: 0.001393 	 Accuracy: 9928/10000 (99.28%)
+
+Saving checkpoint after completion of epoch 37
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 38 [60000/60000 (100.0%)]	Loss: 0.000082	 Average Training loss: 0.000294	 Computation Time: 16.07 seconds
+
+Validation Epoch 38: Average loss: 0.001371 	 Accuracy: 9927/10000 (99.27%)
+
+Saving checkpoint after completion of epoch 38
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 39 [60000/60000 (100.0%)]	Loss: 0.000208	 Average Training loss: 0.000276	 Computation Time: 16.08 seconds
+
+Validation Epoch 39: Average loss: 0.001341 	 Accuracy: 9925/10000 (99.25%)
+
+Saving checkpoint after completion of epoch 39
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 40 [60000/60000 (100.0%)]	Loss: 0.000148	 Average Training loss: 0.000269	 Computation Time: 16.08 seconds
+
+Validation Epoch 40: Average loss: 0.001326 	 Accuracy: 9931/10000 (99.31%)
+
+Saving checkpoint after completion of epoch 40
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 41 [60000/60000 (100.0%)]	Loss: 0.000149	 Average Training loss: 0.000258	 Computation Time: 16.06 seconds
+
+Validation Epoch 41: Average loss: 0.001354 	 Accuracy: 9930/10000 (99.30%)
+
+Saving checkpoint after completion of epoch 41
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 42 [60000/60000 (100.0%)]	Loss: 0.000140	 Average Training loss: 0.000242	 Computation Time: 16.03 seconds
+
+Validation Epoch 42: Average loss: 0.001305 	 Accuracy: 9929/10000 (99.29%)
+
+Saving checkpoint after completion of epoch 42
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 43 [60000/60000 (100.0%)]	Loss: 0.001064	 Average Training loss: 0.000232	 Computation Time: 15.96 seconds
+
+Validation Epoch 43: Average loss: 0.001291 	 Accuracy: 9928/10000 (99.28%)
+
+Saving checkpoint after completion of epoch 43
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 44 [60000/60000 (100.0%)]	Loss: 0.000061	 Average Training loss: 0.000218	 Computation Time: 16.15 seconds
+
+Validation Epoch 44: Average loss: 0.001344 	 Accuracy: 9924/10000 (99.24%)
+
+Saving checkpoint after completion of epoch 44
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 45 [60000/60000 (100.0%)]	Loss: 0.000121	 Average Training loss: 0.000214	 Computation Time: 15.95 seconds
+
+Validation Epoch 45: Average loss: 0.001322 	 Accuracy: 9926/10000 (99.26%)
+
+Saving checkpoint after completion of epoch 45
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 46 [60000/60000 (100.0%)]	Loss: 0.000102	 Average Training loss: 0.000206	 Computation Time: 15.99 seconds
+
+Validation Epoch 46: Average loss: 0.001312 	 Accuracy: 9931/10000 (99.31%)
+
+Saving checkpoint after completion of epoch 46
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 47 [60000/60000 (100.0%)]	Loss: 0.000140	 Average Training loss: 0.000196	 Computation Time: 16.01 seconds
+
+Validation Epoch 47: Average loss: 0.001316 	 Accuracy: 9921/10000 (99.21%)
+
+Saving checkpoint after completion of epoch 47
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 48 [60000/60000 (100.0%)]	Loss: 0.000070	 Average Training loss: 0.000190	 Computation Time: 15.95 seconds
+
+Validation Epoch 48: Average loss: 0.001344 	 Accuracy: 9921/10000 (99.21%)
+
+Saving checkpoint after completion of epoch 48
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 49 [60000/60000 (100.0%)]	Loss: 0.000085	 Average Training loss: 0.000180	 Computation Time: 16.06 seconds
+
+Validation Epoch 49: Average loss: 0.001345 	 Accuracy: 9922/10000 (99.22%)
+
+Saving checkpoint after completion of epoch 49
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Train Epoch: 50 [60000/60000 (100.0%)]	Loss: 0.000103	 Average Training loss: 0.000173	 Computation Time: 15.98 seconds
+
+Validation Epoch 50: Average loss: 0.001344 	 Accuracy: 9925/10000 (99.25%)
+
+Saving checkpoint after completion of epoch 50
+Saved, proceeding to next epoch
+------------------------------------------------------------------------------------
+Average computation time over all iterations 15.16 seconds
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2428, resource id: 41981151, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2429, resource id: 41981151, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2434, resource id: 41981154, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2435, resource id: 41981154, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2440, resource id: 41981157, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2441, resource id: 41981157, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2446, resource id: 41981160, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2447, resource id: 41981160, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2452, resource id: 41981163, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2453, resource id: 41981163, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2458, resource id: 41981166, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2459, resource id: 41981166, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2464, resource id: 41981169, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2465, resource id: 41981169, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2470, resource id: 41981172, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2471, resource id: 41981172, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2476, resource id: 41981175, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2477, resource id: 41981175, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2482, resource id: 41981178, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2483, resource id: 41981178, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2488, resource id: 41981181, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2489, resource id: 41981181, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2494, resource id: 41981184, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2495, resource id: 41981184, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2500, resource id: 41981187, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2501, resource id: 41981187, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2503, resource id: 41981190, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2504, resource id: 41981190, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2509, resource id: 41981193, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2510, resource id: 41981193, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2512, resource id: 41981196, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2513, resource id: 41981196, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2518, resource id: 41981199, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2519, resource id: 41981199, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2524, resource id: 41981202, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2525, resource id: 41981202, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2530, resource id: 41981205, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2531, resource id: 41981205, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2536, resource id: 41981208, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2537, resource id: 41981208, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2542, resource id: 41981211, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2543, resource id: 41981211, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2548, resource id: 41981214, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2549, resource id: 41981214, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2554, resource id: 41981217, major code: 18 (ChangeProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2555, resource id: 41981217, major code: 25 (SendEvent), minor code: 0
+
+Process finished with exit code 0
+

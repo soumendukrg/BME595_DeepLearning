@@ -127,7 +127,7 @@ This is the superclass which defines the convolutional neural network model. Thi
 ![Incorrect Image](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-05/CIFAR100/Incorrectly_classified_view.png)
 
 ### Output of `cam`
--  A snapshot of such an image frame *correctly identified* by the trained network is shown here.
+-  A snapshot of an image frame captured using the webcam which is *correctly identified* by the trained network is shown here.
 ![Camview](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-05/CIFAR100/Correctly_Identified_Frame.png)
 
 #### Loss vs Epoch
@@ -144,8 +144,8 @@ This is the superclass which defines the convolutional neural network model. Thi
 ![Plot7](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-05/CIFAR100/Results/TimevsEpoch200_Adam_wd_flip.png)
 
 #### Accuracy
-- Result after 200 epochs
 - The model achieved less training and validation accuracy. Explanation same as mentioned in Loss vs Epoch.
+- Result after 50 epochs
 ![Plot8](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-05/CIFAR100/Results/AccuracyvsEpoch50_Adam_flip_wd.png)
 - Result after 200 epochs
 ![Plot9](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-05/CIFAR100/Results/AccuracyvsEpoch200_Adam_flip_wd.png)
@@ -159,9 +159,10 @@ This is the superclass which defines the convolutional neural network model. Thi
 |LeNet5 Model|     200   |      47.38%       |     35.95%         |
 
 ### Observation
-- SGD was tried as an optimizer but took more epochs to reach the same loss/accuracy.
+- SGD was tried as an optimizer but took more epochs to reach the same loss/accuracy as Adam.
 - Image Augmentation increased the maximum validation accuracy from 31% to 36%.
 
 ## REFERENCES
 (1) LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998): 2278-2324.
+
 (2) Krizhevsky, Alex, and Geoffrey Hinton. "Learning multiple layers of features from tiny images." (2009).

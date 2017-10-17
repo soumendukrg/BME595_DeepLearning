@@ -4,8 +4,8 @@ One of the most important and challenging task in computer vision is **Object De
 Our project aims to perform *object detection* of a real time video stream. We plan to analyze existing state-of-the-art architectures in this field and propose a network for the said task. We investigate the use of single network to predict bounding boxes and and class probabilities directly from full images. Initially, we propose to test our network on images from different labeled datasets and later proceed to test the same on real time video stream. Finally, we propose to optimize the network to achieve optimum speed-accuracy of object detection and compare with existing architectures.
 
 ## Team members
-- Soumendu Kumar Ghosh [GitHubUserA](https://github.com/soumendukrg)
-- Arindam Bhanja Chowdhury [GitHubUserB](https://github.com/abhanjac)
+- [Soumendu Kumar Ghosh](https://github.com/soumendukrg)
+- [Arindam Bhanja Chowdhury](https://github.com/abhanjac)
 
 ## Goals
 * Analyze different available deep neural network architectures and propose a network architecture to perform object detection on images from the VOC2012 dataset.

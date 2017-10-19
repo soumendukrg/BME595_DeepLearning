@@ -132,10 +132,7 @@ $ python3 test.py --model /dir/containing/model/ # this path should be same as /
 ```
 
 ## Results and Observations
-### Output of `test.py`
--  A snapshot of an image frame captured using the webcam which is *correctly identified* by the trained network is shown here.
-![Camview](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-06/Results/Correctly_Identified_Frame_AlexNet.png)
-
+### Output of `train.py`
 #### Loss vs Epoch
 - Result after 25 epochs
 ![Plot1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-06/Results/LossvsEpoch_Alexnet.png)
@@ -155,6 +152,10 @@ $ python3 test.py --model /dir/containing/model/ # this path should be same as /
 |AlexNet Model|     25    |      35.34%       |     45.26%         |
 
 - The validation accuracy is better than the training accuracy probably as the no of validation images (10000) is much less than the training images (100000), so there is more chance of getting correct predictions among less no. of images.
+
+### Output of `test.py`
+-  A snapshot of an image frame captured using the webcam which is *correctly identified* by the trained network is shown here.
+![Camview](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-06/Results/Correctly_Identified_Frame_AlexNet.png)
 
 ## REFERENCES
 [1] Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Advances in neural information processing systems. 2012.

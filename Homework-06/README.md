@@ -134,19 +134,19 @@ $ python3 test.py --model /dir/containing/model/ # this path should be same as /
 ## Results and Observations
 ### Output of `cam`
 -  A snapshot of an image frame captured using the webcam which is *correctly identified* by the trained network is shown here.
-![Camview]()
+![Camview](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-06/Results/Correctly_Identified_Frame_AlexNet.png)
 
 #### Loss vs Epoch
 - Result after 25 epochs
-![Plot1]()
+![Plot1](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-06/Results/LossvsEpoch_Alexnet.png)
 
 #### Time vs Epoch
 - Result after 25 epochs
-![Plot2]()
+![Plot2](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-06/Results/TimevsEpoch_Alexnet.png)
 
 #### Accuracy
 - Result after 25 epochs
-![Plot3]()
+![Plot3](https://github.com/soumendukrg/BME595_DeepLearning/blob/master/Homework-06/Results/AccuracyvsEpoch_Alexnet.png)
 
 #### **Table**: Results of AlexNet on Tiny ImageNet
 
